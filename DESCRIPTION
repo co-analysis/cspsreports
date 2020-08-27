@@ -1,0 +1,27 @@
+Package: cspsreports
+Version: 0.0.0.9000
+Title: Generate Civil Service People Survey Reports
+Description: Render HTML and/or PDF reports given a specified organisational
+    unit code or codes. Designed for use by designated analysts who have access
+    to Civil Service People Survey data for their organisation.
+Authors@R:
+    person(
+    "Matt", "Dray",
+    email = "csps@cabinetoffice.gov.uk",
+    role = c("aut", "cre"))
+URL: https://github.com/co-analysis/cspsreports/, 
+    https://www.gov.uk/government/collections/civil-service-people-surveys
+BugReports: https://github.com/co-analysis/cspsreports/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: R (>= 3.6.0)
+Imports: 
+    knitr  (>= 1.28),
+    rmarkdown (>= 2.1)
+Suggests: 
+    spelling (>= 2.1),
+    testthat (>= 2.3.2)
+Language: en-GB

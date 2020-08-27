@@ -1,0 +1,16 @@
+---
+pagetitle: "CSPS Report Test"
+output:
+    html_document: default
+    pdf_document: default
+---
+
+# Test
+
+This is a test document for `r unique(data$Organisation)`.
+
+# Information
+
+* Number of units in this report: `r length(unique(data$OUcode))`
+* Units in this report: `r paste(unique(data$label, collapse = ", "))`
+* Number of people in this report: `r nrow(data)`
